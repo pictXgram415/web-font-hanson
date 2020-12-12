@@ -5,8 +5,8 @@
   "main": "htmlServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index-init.html",
-    "build": "parcel build index-init.html -d public"
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d public"
   },
   "repository": {
     "type": "git",
