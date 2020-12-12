@@ -1,0 +1,25 @@
+{
+  "name": "web-font-hanson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "htmlServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index-init.html",
+    "build": "parcel build index-init.html -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pictXgram415/web-font-hanson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pictXgram415/web-font-hanson/issues"
+  },
+  "homepage": "https://github.com/pictXgram415/web-font-hanson#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}

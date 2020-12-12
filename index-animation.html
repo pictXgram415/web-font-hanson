@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブラウザのタブに表示されるタイトル</title>
+    <style>
+        html {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background-color: rgb(161, 121, 121);
+            color: rgb(18, 78, 102);
+            font-size: 3rem;
+            display: grid;
+            place-items: center;
+            height: 100%;
+            animation-name: rotation;
+            animation-iteration-count: infinite;
+            animation-duration: 1s;
+        }
+
+        @keyframes rotation {
+            from {
+                transform: rotate(0);
+            }
+
+            to {
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    初めてかもしれないHTML
+</body>
+
+</html>
